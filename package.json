@@ -1,0 +1,30 @@
+{
+  "name": "@galihristra/eslint-config-react",
+  "version": "1.0.0",
+  "description": "Galih Ristra's personal ESLint React configuration for TS projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript",
+    "react",
+    "react-hooks",
+    "prettier",
+    "galihristra"
+  ],
+  "author": "Galih Aris Saputra",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
