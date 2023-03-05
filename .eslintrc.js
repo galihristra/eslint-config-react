@@ -7,7 +7,6 @@ module.exports = {
   extends: [
     'prettier',
     'plugin:react/recommended',
-    'plugin:sonarjs/recommended',
     'plugin:prettier/recommended',
   ],
   overrides: [],
@@ -16,14 +15,24 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', 'sonarjs', '@typescript-eslint', 'react-hooks'],
+  plugins: ['react', '@typescript-eslint', 'react-hooks'],
   rules: {
-    'react/forbid-prop-types': [0, { forbid: ['any', 'array'] }],
     'import/prefer-default-export': 'off',
     'no-restricted-exports': 'off',
-    'prettier/prettier': ['error', { endOfLine: 'auto' }],
+    'prettier/prettier': [
+      'error',
+      {
+        arrowParens: 'avoid',
+        bracketSameLine: false,
+        bracketSpacing: true,
+        singleQuote: true,
+        trailingComma: 'es5',
+        printWidth: 100,
+        endOfLine: 'lf',
+        tabWidth: 2,
+      },
+    ],
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-    'sonarjs/cognitive-complexity': 'off',
     // 'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
     // 'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
   },
