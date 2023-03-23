@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-galihristra",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Galih Ristra's personal ESLint React configuration for TS projects.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,8 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
-    "eslint": "^8.35.0",
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.6",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
@@ -31,7 +32,7 @@
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.8.4"
+    "prettier": "^2.8.6",
+    "typescript": "^4.8.4 || ^5.0.0"
   }
 }
