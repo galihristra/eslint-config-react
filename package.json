@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-galihristra",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Galih Ristra's personal ESLint React configuration for TS projects.",
   "main": "index.js",
   "scripts": {
